@@ -70,7 +70,7 @@ To run this project locally, follow these steps:
                 raise ValueError("GEMINI_API_KEY environment variable not set. Please set it before running the script.")
             genai.configure(api_key=API_KEY)
             ```
-    -   **Option B (Less Secure - Placeholder):** If you must, replace `"AIzaSyBKegAQxWVXjvTbdJUVZ1UEy6lyV26pZws"` in `job_matcher.py` with your actual API key. **Remember to remove it or replace it with a placeholder before pushing any changes to a public repository.**
+    -   **Option B (Less Secure - Placeholder):** If you must, replace `"GEMINI_API_KEY"` in `job_matcher.py` with your actual API key. **Remember to remove it or replace it with a placeholder before pushing any changes to a public repository.**
 
 ## Usage
 
