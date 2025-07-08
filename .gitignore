@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Gemini API Key (IMPORTANT: Keep your API key out of version control!)
+# If your API key is directly in job_matcher.py, you should
+# consider moving it to an environment variable or a separate
+# config file that is also .gitignore'd.
+# For this project, you'll need to manually ensure it's not committed
+# or replace it with a placeholder before committing.
+# Example:
+# config.py
+# *.env
+# .env
